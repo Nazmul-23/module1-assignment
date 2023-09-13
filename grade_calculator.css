@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 350px;
+    height: 280px;
+    font-size: 1.2rem;
+    background: rgba(78, 7, 7, 0.822);
+    margin: 100px auto;
+    border: 1px solid wheat;
+    padding: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(231, 218, 218, 0.849);
+}
+input[type='number'] {
+
+    width: 50%;
+    font-size: 1rem;
+    margin-top: 8px;
+    color: rgba(14, 9, 1, 0.925);
+    background: rgba(245, 242, 242, 0.842);
+    padding: 5px;
+
+    margin-bottom: 10px;
+    border: 1px solid rgb(87, 86, 85);
+    border-radius: 5px;
+
+}
+
+
+button {
+    background-color: rgb(4, 27, 129);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
